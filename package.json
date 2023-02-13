@@ -1,0 +1,21 @@
+{
+	"name": "fsml-ede-solid",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "",
+	"scripts": {
+		"start": "vite",
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"fsmlang": ">=0.4.1",
+		"vite": "^3.0.9",
+		"vite-plugin-solid": "^2.3.0"
+	},
+	"dependencies": {
+		"solid-js": "^1.5.1"
+	}
+}

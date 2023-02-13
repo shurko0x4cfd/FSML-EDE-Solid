@@ -1,0 +1,81 @@
+.fsml-console {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+
+	width: 100%;
+	height: 100%;
+
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	font-size: 14px;
+
+	padding: 8px;
+	border: 8px solid;
+	border-color: lightgray;
+	background-color: rgb(11, 15, 1);
+
+	color: rgb(218, 252, 218);
+	font-family: 'Terminus (TTF)', Terminus, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif, 'Terminus (TTF)',
+		source-code-pro, Menlo, Monaco, 'Consolas', 'Courier New', monospace;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fsmlogo-wrapper {
+	flex-direction: row;
+	justify-content: center;
+}
+
+.fsmlogo {
+	text-align: center;
+	font-size: 14px;
+}
+
+.fsmlog {
+	width: 100%;
+	font-size: 14px;
+}
+
+.inbox-wrapper {
+	/* Mandatory  */
+	display: flex;
+	flex-direction: row;
+
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.prompt {
+	padding-right: 8px;
+}
+
+.inputform {
+	/* Mandatory  */
+	flex-grow: 1;
+}
+
+.inbox {
+	width: 100%;
+
+	outline: none;
+	border-style: hidden;
+	border-width: 0px;
+	font-size: 14px;
+	color: rgb(218, 252, 218);
+	background-color: rgb(11, 15, 1);
+}
+
+.ws-pre {
+	white-space: pre;
+}
+
+.red-border {
+	border-style: dotted;
+	border-width: 1px;
+	border-color: red;
+}
