@@ -1,6 +1,6 @@
 {
 	"name": "fsml-ede-solid",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"description": "",
 	"scripts": {
@@ -11,11 +11,11 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"fsmlang": ">=0.4.1",
 		"vite": "^3.0.9",
 		"vite-plugin-solid": "^2.3.0"
 	},
 	"dependencies": {
+		"fsmlang": ">=0.4.1",
 		"solid-js": "^1.5.1"
 	}
 }
